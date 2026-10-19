@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SVU Events - Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-calendar-event me-2"></i>SVU-EVENTS
+      </a>
+      <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-list fs-2 text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-lg-2 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <div class="mb-4">
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="text-muted mx-auto" style="max-width: 650px;">
+          We are a team of dedicated ITE students working together to build seamless event management experiences for Syrian Virtual University.
+        </p>
+      </div>
+
+      <div class="row g-3 justify-content-center">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="custom-card p-3 h-100">
+            <i class="bi bi-person-circle fs-3 text-secondary mb-2 d-block"></i>
+            <h6 class="fw-bold mb-1">mohammad_347375</h6>
+            <span class="badge bg-secondary mb-1">C8</span>
+            <div class="small text-muted">ITE Student</div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="custom-card p-3 h-100">
+            <i class="bi bi-person-circle fs-3 text-secondary mb-2 d-block"></i>
+            <h6 class="fw-bold mb-1">mhamad_365308</h6>
+            <span class="badge bg-secondary mb-1">C8</span>
+            <div class="small text-muted">ITE Student</div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="custom-card p-3 h-100">
+            <i class="bi bi-person-circle fs-3 text-secondary mb-2 d-block"></i>
+            <h6 class="fw-bold mb-1">ahmad_343835</h6>
+            <span class="badge bg-secondary mb-1">C8</span>
+            <div class="small text-muted">ITE Student</div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="custom-card p-3 h-100">
+            <i class="bi bi-person-circle fs-3 text-secondary mb-2 d-block"></i>
+            <h6 class="fw-bold mb-1">ahmad_346687</h6>
+            <span class="badge bg-secondary mb-1">C8</span>
+            <div class="small text-muted">ITE Student</div>
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">Featured Events</h2>
+
+      <div id="eventCarousel" class="carousel slide rounded-3 overflow-hidden shadow-sm" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="assets/imgs/img2.jpg" class="d-block w-100" style="max-height: 420px; object-fit: cover;" alt="Graduation Ceremony">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+              <h5 class="fw-bold text-white mb-1">Graduation Ceremony of Syrian Virtual University</h5>
+              <p class="mb-0 small">An official graduation ceremony celebrating the achievements of SVU students.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/imgs/img1.jpg" class="d-block w-100" style="max-height: 420px; object-fit: cover;" alt="Knowledge Conference">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+              <h5 class="fw-bold text-white mb-1">Syrian Knowledge Content Conference</h5>
+              <p class="mb-0 small">A conference dedicated to enriching Arabic digital knowledge content.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/imgs/img3.jpg" class="d-block w-100" style="max-height: 420px; object-fit: cover;" alt="Virtual Education Workshop">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+              <h5 class="fw-bold text-white mb-1">Workshop on Evaluating Virtual Education</h5>
+              <p class="mb-0 small">A workshop focused on assessing the quality and effectiveness of virtual education.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="section-title">Browse by Category</h2>
+
+      <div class="row g-3 justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="category-item" onclick="filterByCategory('Educational')">
+            <i class="bi bi-book mb-2 d-block"></i>
+            <h6 class="mb-0 fw-bold">Educational</h6>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="category-item" onclick="filterByCategory('Technical')">
+            <i class="bi bi-cpu mb-2 d-block"></i>
+            <h6 class="mb-0 fw-bold">Technical</h6>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="category-item" onclick="filterByCategory('Culture')">
+            <i class="bi bi-globe mb-2 d-block"></i>
+            <h6 class="mb-0 fw-bold">Culture</h6>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="category-item" onclick="filterByCategory('Sport')">
+            <i class="bi bi-trophy mb-2 d-block"></i>
+            <h6 class="mb-0 fw-bold">Sport</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">Featured Events This Week</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card custom-card event-card h-100 border-0 shadow-sm" data-category="Educational">
+            <div class="position-relative">
+              <img src="assets/imgs/img4.jpg" class="card-img-top event-img" style="height: 200px; object-fit: cover;" alt="Graduation Ceremony">
+              <span class="position-absolute top-0 start-0 m-2 badge badge-category">Educational</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold text-dark event-title fs-6">
+                Graduation Ceremony of Syrian Virtual University
+              </h5>
+              <div class="small text-muted mb-2">
+                <div><i class="bi bi-clock me-1"></i> August 15–20, 2024 – 6:00 PM</div>
+                <div><i class="bi bi-geo-alt me-1"></i> Damascus</div>
+              </div>
+              <p class="card-text text-secondary small flex-grow-1 event-desc">
+                An official graduation ceremony organized by Syrian Virtual University to celebrate new graduates.
+              </p>
+              <div class="text-end mt-2">
+                <button class="btn btn-svu btn-sm px-3">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card custom-card event-card h-100 border-0 shadow-sm" data-category="Technical">
+            <div class="position-relative">
+              <img src="assets/imgs/img5.jpg" class="card-img-top event-img" style="height: 200px; object-fit: cover;" alt="Programming Marathon">
+              <span class="position-absolute top-0 start-0 m-2 badge badge-category">Technical</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold text-dark event-title fs-6">
+                Syrian Children and Youth Programming Marathon
+              </h5>
+              <div class="small text-muted mb-2">
+                <div><i class="bi bi-clock me-1"></i> August 15–20, 2019 – 6:00 PM</div>
+                <div><i class="bi bi-geo-alt me-1"></i> Damascus</div>
+              </div>
+              <p class="card-text text-secondary small flex-grow-1 event-desc">
+                A programming marathon for children and youth aimed at developing coding and problem-solving skills.
+              </p>
+              <div class="text-end mt-2">
+                <button class="btn btn-svu btn-sm px-3">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card custom-card event-card h-100 border-0 shadow-sm" data-category="Educational">
+            <div class="position-relative">
+              <img src="assets/imgs/img6.jpg" class="card-img-top event-img" style="height: 200px; object-fit: cover;" alt="Virtual Education Workshop">
+              <span class="position-absolute top-0 start-0 m-2 badge badge-category">Educational</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold text-dark event-title fs-6">
+                Workshop on Evaluating Virtual Education
+              </h5>
+              <div class="small text-muted mb-2">
+                <div><i class="bi bi-clock me-1"></i> August 15–20, 2017 – 6:00 PM</div>
+                <div><i class="bi bi-geo-alt me-1"></i> Damascus</div>
+              </div>
+              <p class="card-text text-secondary small flex-grow-1 event-desc">
+                A workshop focused on assessing the quality and effectiveness of virtual education and discussing challenges.
+              </p>
+              <div class="text-end mt-2">
+                <button class="btn btn-svu btn-sm px-3">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer py-4 text-center mt-5">
+    <div class="container">
+      <div class="d-flex justify-content-center gap-3 mb-3">
+        <a href="#"><i class="fab fa-facebook-f fs-5"></i></a>
+        <a href="#"><i class="fab fa-instagram fs-5"></i></a>
+        <a href="#"><i class="fab fa-twitter fs-5"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in fs-5"></i></a>
+      </div>
+      <p class="small mb-0">© 2026 SVU-EVENTS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const eventCards = document.querySelectorAll(".event-card");
+
+      eventCards.forEach(card => {
+        const title = card.querySelector(".event-title")?.textContent.trim();
+        const date = card.querySelector(".bi-clock")?.parentNode.textContent.trim();
+        const place = card.querySelector(".bi-geo-alt")?.parentNode.textContent.trim();
+        const description = card.querySelector(".event-desc")?.textContent.trim();
+        const image = card.querySelector(".event-img")?.src;
+        const category = card.dataset.category || card.querySelector(".badge-category")?.textContent.trim() || "General";
+
+        const detailsBtn = card.querySelector("button");
+
+        if (detailsBtn) {
+          detailsBtn.addEventListener("click", () => {
+            const selectedEvent = { title, category, date, place, description, image };
+            localStorage.setItem("selectedEvent", JSON.stringify(selectedEvent));
+            window.location.href = "event.html";
+          });
+        }
+      });
+
+      const scrollTopBtn = document.getElementById("scrollTopBtn");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          scrollTopBtn.style.display = "block";
+        } else {
+          scrollTopBtn.style.display = "none";
+        }
+      });
+
+      scrollTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    });
+
+    function filterByCategory(catName) {
+      localStorage.setItem("selectedCategory", catName);
+      window.location.href = "events.html";
+    }
+  </script>
+</body>
+
+</html>

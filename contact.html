@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SVU Events - Contact Us</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-calendar-event me-2"></i>SVU-EVENTS
+      </a>
+      <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-list fs-2 text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-lg-2 text-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-5 bg-light text-center border-bottom">
+    <div class="container py-3">
+      <h1 class="section-title display-6">Get in Touch</h1>
+      <p class="text-muted mx-auto lead fs-6" style="max-width: 700px;">
+        Have an event idea, a partnership proposal, or feedback? We’d love to hear from you!
+      </p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-stretch g-4">
+        
+        <div class="col-lg-5">
+          <div class="card custom-card h-100 p-4 border-0 shadow-sm">
+            <h4 class="fw-bold mb-4 text-dark fs-5">
+              <i class="bi bi-geo-alt me-2 text-primary"></i>Our Location & Info
+            </h4>
+            
+            <div class="mb-3 text-secondary">
+              <p class="mb-2"><i class="bi bi-building me-2 text-primary"></i> <strong>Location:</strong> Damascus, Syria</p>
+              <p class="mb-2"><i class="bi bi-telephone me-2 text-primary"></i> <strong>Phone:</strong> +963 999 888 777</p>
+              <p class="mb-0"><i class="bi bi-envelope me-2 text-primary"></i> <strong>Email:</strong> SVU-EVENTS@gmail.com</p>
+            </div>
+
+            <div class="map-container mt-auto rounded overflow-hidden border">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10646.721310585028!2d36.2826!3d33.5138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e0b5be59e8a9%3A0x6276f4f3a4c4b7db!2sDamascus!5e0!3m2!1sen!2ssy!4v1677433489362"
+                width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="card custom-card p-4 border-0 shadow-sm h-100">
+            <h4 class="fw-bold mb-4 text-dark fs-5">
+              <i class="bi bi-send me-2 text-primary"></i>Send Us a Message
+            </h4>
+
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label text-secondary fw-semibold small">Full Name *</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label text-secondary fw-semibold small">Email Address *</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label text-secondary fw-semibold small">Message *</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" id="submitBtn" class="btn btn-svu w-100 fw-medium py-2">
+                <i class="bi bi-send-fill me-2"></i>Send Message
+              </button>
+
+              <div class="alert alert-success mt-3 d-none mb-0" id="successMsg" role="alert">
+                <i class="bi bi-check-circle-fill me-2"></i> Thank you! Your message has been sent successfully.
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer py-4 text-center mt-5">
+    <div class="container">
+      <div class="d-flex justify-content-center gap-3 mb-3">
+        <a href="#"><i class="fab fa-facebook-f fs-5"></i></a>
+        <a href="#"><i class="fab fa-instagram fs-5"></i></a>
+        <a href="#"><i class="fab fa-twitter fs-5"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in fs-5"></i></a>
+      </div>
+      <p class="small mb-0">© 2026 SVU-EVENTS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const contactForm = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const successMsg = document.getElementById('successMsg');
+
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        submitBtn.disabled = true;
+        const originalContent = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span> Sending...';
+
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalContent;
+          successMsg.classList.remove('d-none');
+          contactForm.reset();
+
+          setTimeout(() => { 
+            successMsg.classList.add('d-none'); 
+          }, 5000);
+        }, 1200);
+      });
+
+      const scrollTopBtn = document.getElementById("scrollTopBtn");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          scrollTopBtn.style.display = "block";
+        } else {
+          scrollTopBtn.style.display = "none";
+        }
+      });
+
+      scrollTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    });
+  </script>
+</body>
+
+</html>
